@@ -1,0 +1,46 @@
+# Face Recognition App
+
+Este é um aplicativo de reconhecimento facial desenvolvido em Python utilizando as bibliotecas PySide6 e face_recognition.
+
+## Estrutura do Projeto
+pycache/ .gitignore anthony.py anthony.qrc Converter frame ui to py.txt Converter image qrc to py.txt Create python exe.txt imagens/ lebron1.py lebron1.qrc lebron2.py lebron2.qrc LICENSE main.py README requirements.txt scipy-extra-dll/ semimagem.py semimagem.qrc ui_main.ui
+
+
+## Instalação
+
+1. Clone o repositório:
+    ```sh
+    git clone https://github.com/seu-usuario/seu-repositorio.git
+    cd seu-repositorio
+    ```
+
+2. Crie um ambiente virtual e ative-o:
+    ```sh
+    python -m venv venv
+    source venv/bin/activate  # No Windows use `venv\Scripts\activate`
+    ```
+
+3. Instale as dependências:
+    ```sh
+    pip install -r requirements.txt
+    ```
+
+## Uso
+
+1. Execute o arquivo `main.py`:
+    ```sh
+    python main.py
+    ```
+
+2. Use a interface gráfica para carregar imagens de treino e teste, e realizar a predição.
+
+## Estrutura do Código
+
+- `main.py`: Contém a lógica principal do aplicativo e a interface gráfica.
+- `anthony.py`, `lebron1.py`, `lebron2.py`, `semimagem.py`: Arquivos gerados pelo compilador de recursos do Qt contendo dados de imagem.
+- `anthony.qrc`, `lebron1.qrc`, `lebron2.qrc`, `semimagem.qrc`: Arquivos de recursos do Qt.
+- `ui_main.ui`: Arquivo de interface do usuário criado com o Qt Designer.
+
+## Licença
+
+Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.

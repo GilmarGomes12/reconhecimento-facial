@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="semimagem">
+    <file>imagens/semImagem.png</file>
+  </qresource>
+</RCC>
